@@ -1,0 +1,16 @@
+current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/ahmadarif/.rubies/ruby-3.1.2/bin/ruby -I /Users/ahmadarif/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220917-81725-q40o3z.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220917-81725-ydrzt1/skiptrace/internal

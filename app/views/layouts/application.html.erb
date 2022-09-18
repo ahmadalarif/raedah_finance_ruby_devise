@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "AlRaedah Financing Solution" %></title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "application", :media => "all" %>   
+  </head>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <%= image_tag("alraedah-logo.svg", width: "7%") %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <h4><a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a></h4>
+      </li>
+      <li class="nav-item">
+        <h4><a class="nav-link" href="/admin">Admin Login</a></h4>
+      </li>
+      <li class="nav-item">
+        <h4><a class="nav-link" href="/users/sign_up">Sign Up</a>
+      </li></h4>
+    </ul>
+  </div>
+</nav>
+  <body>
+    <div class="container">     
+      <div class="row">
+        <div class="col-lg-10">
+          
+        </div>
+        <div class="col-lg-12">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header"></li>
+              <% if user_signed_in? %>
+              <h2 class="lg:mr-2 px-4">Welcome, <%= current_user.username %></h2>
+              <li><%= link_to 'Logout', destroy_user_session_path %></li><br>
+              <% else %>
+              <li><%= link_to 'Login', new_user_session_path %></li>
+             <li><%= link_to "Sign Up", new_user_registration_path %></li>
+             <% end %>
+              <li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+      </div><!--/row-->
+          <%= yield %>
+      <footer class="footer mt-auto py-3">
+        <div class="container">
+         <p>We Lend, You Grow</p>
+          <span class="text-muted">&copy; AlRaedah Financing Solution</span>
+       </div>
+     </footer>
+    </div> <!-- /container -->
+  </body>
+</html>
