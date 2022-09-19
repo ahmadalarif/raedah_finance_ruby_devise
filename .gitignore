@@ -34,3 +34,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+vendor/cache/ruby/3.1.0/bundler/gems/mimemagic-01f92d86d15d
+vendor/cache/ruby/2.6.0/bundler/gems/mimemagic-01f92d86d15d

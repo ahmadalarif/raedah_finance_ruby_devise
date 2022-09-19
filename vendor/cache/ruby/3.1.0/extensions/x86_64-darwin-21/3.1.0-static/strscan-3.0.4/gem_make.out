@@ -1,5 +1,5 @@
 current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
-/Users/ahmadarif/.rubies/ruby-3.1.2/bin/ruby -I /Users/ahmadarif/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220917-86011-2g758l.rb extconf.rb
+/Users/ahmadarif/.rubies/ruby-3.1.2/bin/ruby -I /Users/ahmadarif/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220919-8494-vg67cn.rb extconf.rb
 checking for onig_region_memsize() in ruby.h... yes
 creating Makefile
 
@@ -14,4 +14,4 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20220917-86011-33uwfz
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20220919-8494-duyoy2

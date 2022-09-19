@@ -1,5 +1,5 @@
 current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/pg-1.4.3/ext
-/Users/ahmadarif/.rubies/ruby-3.1.2/bin/ruby -I /Users/ahmadarif/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220917-81725-w8p0qf.rb extconf.rb
+/Users/ahmadarif/.rubies/ruby-3.1.2/bin/ruby -I /Users/ahmadarif/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220919-8494-hpi3v5.rb extconf.rb
 Calling libpq with GVL unlocked
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
@@ -248,5 +248,5 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/ahmadarif/Downloads/devise_active_admin_raedah-master/vendor/cache/ruby/3.1.0/gems/pg-1.4.3/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20220917-81725-knabq6
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20220919-8494-wha9b4
 installing pg_ext libraries
