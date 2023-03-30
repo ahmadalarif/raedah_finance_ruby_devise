@@ -641,7 +641,7 @@ Webpacker hooks up a new `webpacker:compile` task to `assets:precompile`, which 
   - [Yarn](./docs/yarn.md)
   - [Misc](./docs/misc.md)
 - [Deployment](./docs/deployment.md)
-  - [Docker](./docs/docker.md)
+  
   - [Using in Rails engines](./docs/engines.md)
   - [Webpacker on Cloud9](./docs/cloud9.md)
 - [Testing](./docs/testing.md)
