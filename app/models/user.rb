@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
   validates_format_of :mobile_number, :with => /[0-9]{9}/ 
   validates :email, format: { with: /.*@*./}
   
+  has_one_attached :cv
   
 
 end
